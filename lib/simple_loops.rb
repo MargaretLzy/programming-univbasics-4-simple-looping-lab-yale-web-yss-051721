@@ -23,7 +23,7 @@ end
 def return_string_array(array)
     c=0
   while c< array.length do
-    new= array[c].to_s
+    new << array[c].to_s
     c+=1
     puts new
   end

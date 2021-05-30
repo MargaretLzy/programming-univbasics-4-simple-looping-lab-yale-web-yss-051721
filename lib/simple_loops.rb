@@ -22,6 +22,7 @@ def output_array(array)
 end
 def return_string_array(array)
     c=0
+    new =[]
   while c< array.length do
     new << array[c].to_s
     c+=1

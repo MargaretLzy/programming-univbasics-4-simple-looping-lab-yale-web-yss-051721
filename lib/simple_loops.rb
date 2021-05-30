@@ -27,5 +27,5 @@ def return_string_array(array)
     new << array[c].to_s
     c+=1
   end
-  puts new
+ new
 end

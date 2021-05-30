@@ -26,7 +26,6 @@ def return_string_array(array)
   while c< array.length do
     new << array[c].to_s
     c+=1
-    new
   end
- 
+ new
 end
